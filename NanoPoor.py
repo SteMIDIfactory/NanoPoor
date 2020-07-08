@@ -94,6 +94,6 @@ while 1==1:
         
         schedtime=starttime+(ITIT*3600) ########################### REPEAT THE ANALYSIS EVERY 3600 SECONDS (1 HOUR)
         while time.time() < schedtime:
-                sleep(60)
+                time.sleep(60)
         
 os.system("rm -rf workfolder")
